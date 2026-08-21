@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Litualy",
+    "slug": "litualy",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "litualy",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.litualy.app"
+    },
+    "android": {
+      "package": "com.litualy.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511",
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713"
+        }
+      ]
+    ]
+  }
+}
